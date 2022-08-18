@@ -10,6 +10,7 @@ Proyek ini merupakan bentuk Aplikasi Travel Online yang terdiri dari 3 microserv
 3. Service Transaction
 
 Berikut merupakan Entity Relationship Diagram untuk proyek ini:
+![alt text](https://github.com/Training-Java-Alterra-Team5/erd/blob/master/Travel%20Online%20Application.png)
 
 Penjelasan ERD
 1. Entitas
