@@ -1,2 +1,26 @@
-# erd
-ERD Travel Online Application
+Microservice Auth Travel Online Application
+
+Anggota Tim Developer:
+* Denny Muharrom Ariawan
+* Okky Septian
+
+Proyek ini merupakan bentuk Aplikasi Travel Online yang terdiri dari 3 microservices :
+1. Service Auth
+2. Service Passenger
+3. Service Transaction
+
+Berikut merupakan Entity Relationship Diagram untuk proyek ini:
+
+Penjelasan ERD
+1. Entitas
+- Admin
+- Passenger
+- Bus
+- Schedule
+2. Hubungan antar entitas
+- 1 Admin bisa memiliki banyak bus
+- 1 Admin hanya bisa memiliki 1 Schedule
+- 1 Passenger hanya bisa memiliki 1 Schedule
+- 1 Bus bisa memiliki banyak transaction
+- 1 Bus hanya bisa memiliki 1 Schedule
+- 1 Schedule bisa memiliki banyak transaction
