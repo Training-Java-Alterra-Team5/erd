@@ -14,14 +14,14 @@ Berikut merupakan Entity Relationship Diagram untuk proyek ini:
 
 Penjelasan ERD
 1. Entitas
-- Admin
-- Passenger
+- User
+- Role
 - Bus
 - Schedule
 2. Hubungan antar entitas
-- 1 Admin bisa memiliki banyak bus
-- 1 Admin hanya bisa memiliki 1 Schedule
-- 1 Passenger hanya bisa memiliki 1 Schedule
+- 1 User bisa memiliki banyak bus
+- 1 User hanya bisa memiliki 1 Schedule
+- 1 User hanya bisa memiliki 1 Schedule
 - 1 Bus bisa memiliki banyak transaction
 - 1 Bus hanya bisa memiliki 1 Schedule
 - 1 Schedule bisa memiliki banyak transaction
